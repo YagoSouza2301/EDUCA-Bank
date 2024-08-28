@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    padding: 58px;
+    background-color: rgb(69, 122, 168);
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+header ul a {
+    color: white;
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.sessao-1{
+    padding: 250px;
+    background:linear-gradient(180deg, #c0cdcf 8.33%, rgb(90, 168, 168) 100%);
+}
+.sessao-1 h1 {
+    font-size: 50px;
+    color: #444444;
+}
+.sessao-1 p {
+    font-size: 30px;
+}
+.sessao-1 button {
+    background-color: white;
+    color: rgb(0, 99, 5);
+    border-color: rgb(0, 99, 5) ;
+    width: 230px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sessao-1 button:hover {
+    transition: 0.8s;
+    background-color: green;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.sessao-2 {
+    padding: 150px;
+    background-color: rgb(226, 233, 233) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sessao-2 img {
+    width: 400px;
+    height: 400px;
+    margin: 70px;
+}
+.sessao-2 p {
+    font-size: 43px;
+}
+.sessao-2 button {
+    padding: 20px;
+    border-radius: 50px;
+    margin: 30px;
+    font-size: 15px;
+    width: 300px;
+    cursor: pointer;
+    border-color: rgb(19, 153, 108);
+}
+.sessao-2 div a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(19, 153, 108);
+}
+
+
+.sessao-3 {
+    background-color: rgb(226, 233, 233);
+    padding: 100px;
+}
+.sessao-3 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgba(0, 12, 37, 0.78);
+    margin-bottom: 30px;
+}
+.sessao-3 p {
+    font-size: 20px;
+    color: #8c8c8c;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.sessao-3 button {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    width: 250px;
+    height: 50px;
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border-radius: 40px;
+}
+.sessao-3 hr {
+    width: 800px;
+}
+.sessao-3 img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25%;
+
+}
+
+
+.sessao-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-image: url(IMAGENS/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.sessao-4 div img {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+}
+.sessao-4 div h4 {
+    color: white;
+    font-size: 30px;
+    margin: 40px;
+}
+.sessao-4 div h4 span {
+    color: yellow;
+}
+.sessao-4 div p {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
