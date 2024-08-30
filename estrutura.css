@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0; /*Espaçamento*/
+    list-style: none; /*Tira o formato da lista*/
+    text-decoration: none; /*Tira o tipo de texto*/
+}
+
+/*------------------------------HEADER----------------------------------*/
+header {
+    background-color: rgb(78, 135, 168); /*Modificamos a cor do fundo*/
+    padding: 70px; /*Damos um espaçamento entre as sessões ( respiro )*/
+}
+header ul {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: end;
+    align-items: center;
+}
+header ul li a {
+    margin-right: 18px; /*Espaçamento*/
+    font-size: 13px; /*Tamanho das letras*/
+    font-weight: 500;
+    color: white; /*Cor da letra*/
+}
+
+
+
+/*------------------------------SESSÃO 1------------------------------*/
+.sessao-1 {
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90, 168, 168) 100%); /*Modificamos a cor do fundo*/
+    padding: 250px; /*Damos um espaçamento entre as sessões ( respiro )*/
+}
+.sessao-1 h1 {
+    color: rgba(0, 0, 0, 0.712); /*Cor da letra*/
+    font-size: 50px; /*Tamanho das letras*/
+    font-weight: bolder;
+}
+.sessao-1 p {
+    font-size: 40px; /*Tamanho das letras*/
+}
+.sessao-1 button {
+    background-color: rgb(255, 255, 255); /*Modificamos a cor do fundo*/
+    border-color: rgb(19, 153, 108);
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    width: 280px;
+    height: 60px;
+    border-radius: 50px; /*Arredondamento do botao*/
+    margin-top: 15px; /*Espaçamento*/
+    cursor: pointer;
+    /*Escrita Estilo */
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 153, 108); /*Cor da letra*/
+    font-size: 13px; /*Tamanho das letras*/
+}
+.sessao-1 button:hover {
+    transition: 0.6s;
+    background-color: rgb(19, 153, 108); /*Modificamos a cor do fundo*/
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); /*Cor da letra*/
+}
+
+
+
+/*------------------------------SESSÃO 2------------------------------*/
+.sessao-2 {
+    background-color: rgb(226, 233, 233); /*Modificamos a cor do fundo*/
+    padding: 150px; /*Damos um espaçamento entre as sessões ( respiro )*/
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: space-around;
+    align-items: center;
+}
+.sessao-2 div p {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: center;
+    align-items: center;
+    font-size: 43px; /*Tamanho das letras*/
+    margin: 30px; /*Espaçamento*/
+}
+.sessao-2 div button {
+    background-color: rgb(255, 255, 255); /*Modificamos a cor do fundo*/
+    border-color: rgb(19, 153, 108);
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    width: 280px;
+    height: 60px;
+    border-radius: 30px; /*Arredondamento do botao*/
+    margin: 40px; /*Espaçamento*/
+    cursor: pointer;
+    /*Escrita Estilo */
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 153, 108); /*Cor da letra*/
+    font-size: 13px; /*Tamanho das letras*/
+}
+.sessao-2 button:hover {
+    transition: 0.6s;
+    background-color: rgb(90, 168, 168); /*Modificamos a cor do fundo*/
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); /*Cor da letra*/
+}
+.sessao-2 div img {
+    width: 450px;
+    height: 500px;
+    margin: 20px; /*Espaçamento*/
+}
+
+
+
+/*------------------------------SESSÃO 3------------------------------*/
+.sessao-3 {
+    background-color: rgb(226, 233, 233); /*Modificamos a cor do fundo*/
+    padding: 200px; /*Damos um espaçamento entre as sessões ( respiro )*/
+}
+.sessao-3 h2 {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: center;
+    font-size: 45px; /*Tamanho das letras*/
+    margin-top: -150px; /*Espaçamento*/
+    color: rgb(34, 34, 74); /*Cor da letra*/
+    text-align: center;
+}
+.sessao-3 p {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: left;
+    margin-top: 30px; /*Espaçamento*/
+    font-size: 19px; /*Tamanho das letras*/
+    color: rgba(0, 0, 0, 0.564); /*Cor da letra*/    
+}
+.sessao-3 button {
+    background-color: rgb(255, 255, 255); /*Modificamos a cor do fundo*/
+    border-color: rgb(0, 17, 255);
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    width: 220px;
+    height: 60px;
+    border-radius: 30px; /*Arredondamento do botao*/
+    margin: 75px;
+    cursor: pointer;
+    /*Escrita Estilo */
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 17, 255); /*Cor da letra*/
+    font-size: 15px; /*Tamanho das letras*/
+}
+.sessao-3 button:hover {
+    transition: 0.6s;
+    background-color: rgb(0, 4, 255); /*Modificamos a cor do fundo*/
+    border-color: rgb(255, 255, 255); /*Cor da borda do botao*/
+    color: rgb(255, 255, 255); /*Cor da letra*/
+} 
+.sessao-3 .line {
+    width: 700px;
+    height: 0px;
+    margin-left: 15%;
+    background-color: aliceblue;
+}
+.sessao-3 img {
+    margin-top: 50px;
+    margin-left: 160px;
+    width: 700px;
+    height: 180px;
+}
+
+
+
+/*------------------------------SESSÃO 4------------------------------*/
+.sessao-4 {
+    padding: 10%; /*Damos um espaçamento entre as sessões ( respiro )*/
+    background-image: url(IMAGENS/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sessao-4 div img {
+    width: 350px;
+    height: 400px;
+}
+.sessao-4 h2 {
+    margin-left: 230px;
+    font-size: 30px; /*Tamanho das letras*/
+    color: aliceblue; /*Cor da letra*/
+}
+.sessao-4 h2 span {
+    color: yellow; /*Cor da letra*/
+}
+.sessao-4 div p {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px; /*Tamanho das letras*/
+    color: aliceblue; /*Cor da letra*/
+    text-align: center;
+}
+
+
+
+/*------------------------------FOOTER------------------------------*/
+footer {
+    background-color: rgb(27, 27, 27); /*Modificamos a cor do fundo*/
+    padding: 80px; /*Damos um espaçamento entre as sessões ( respiro )*/
+}
+footer img {
+    margin-top: -70px;
+    margin-left: 40%;
+    width: 300px;
+}
+.div-footer {
+    display: flex; /*Deixa a sessão que quero flexivel*/
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.div-footer div p {
+    margin: 20px;
+    font-size: 17px; /*Tamanho das letras*/
+    font-weight: 400;
+    color: rgb(100, 100, 100); /*Cor da letra*/
+}
+.div-footer div nav ul li a {
+    color: rgb(255, 255, 255); /*Cor da letra*/
+}
+.div-footer div nav ul li a:hover {
+    transition: 0.8s;
+    color: red; /*Cor da letra*/
+}
