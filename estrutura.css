@@ -178,6 +178,7 @@ header ul li a {
     height: 400px;
 }
 .sessao-4 h2 {
+    text-align: center; 
     margin-left: 230px;
     font-size: 30px; /*Tamanho das letras*/
     color: aliceblue; /*Cor da letra*/
