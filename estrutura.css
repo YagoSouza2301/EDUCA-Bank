@@ -149,7 +149,7 @@ header ul li a {
 .sessao-3 .line {
     width: 700px; /*Largura*/
     height: 0px; /*Altura*/
-    margin-left: 15%;
+    margin: 0 auto; /*Centraliza minha linha*/
     background-color: aliceblue;
 }
 .sessao-3 img {
